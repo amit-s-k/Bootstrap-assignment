@@ -1,0 +1,261 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Muli', sans-serif;
+}
+
+
+.navbar-brand{
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.nav-item{
+    color: greenyellow;
+    text-transform: capitalize;
+}
+a.nav-item.nav-link:hover{
+    color: gold;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gold' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+.navbar-toggler {
+    border-color: gold;
+} 
+.jumbotron{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+.navbar{
+    background-color: black;
+}
+#follow{
+    text-transform: capitalize;
+    color: darkgray;
+    font-size: 1.9em;
+    margin-right: 20px;
+    padding-left: 15px; 
+}
+#footer{
+    height: 100px;
+    padding: 0px;
+}
+.fa-instagram,.fa-facebook-square, .fa-twitter-square{
+    color: whitesmoke;
+    font-size: 1.8em;
+    margin-right: 30px;
+
+}
+#footer .nav-item{
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+#end{
+    background-color: black;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px; 
+}
+#end a:link{
+    margin-right: 30px;
+}
+#footer span{
+    color: greenyellow;
+}
+
+.carousel-caption{
+    font-size: 6.5em;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color: brown;
+
+}
+.display-4{
+    animation-name: example;
+    animation-duration: 60s;
+}
+.lead{
+    color: gold;
+}
+@keyframes example {
+    0%   {color: violet;}
+    10%  {color: purple;}
+    20%  {color: blue;}
+    30% {color: green;}
+
+    40%   {color: yellow;}
+    50%  {color: orange;}
+    60%  {color: orangered;}
+    70% {color: red;}
+
+    80%   {color: magenta;}
+    90%  {color: cyan;}
+    100%  {color: beige;}
+
+}
+.mapouter{
+    text-align:right;
+    height:300px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:100%;
+}
+iframe{
+    width:100%;
+    height:300px;
+}
+
+@media (width:320px){
+
+    .carousel-caption{
+        font-size: 1.5em;
+        letter-spacing: 5px;    
+    }
+    .display-4{
+
+        font-size: 1.7em;
+
+    }
+    .lead{
+        font-size: 0.9em;
+
+
+    }
+    #follow{
+        font-size: 0.9em;
+        margin-right: 10px;
+    }
+    #fall{
+        flex-direction: row;
+    }
+    .fa-instagram,.fa-facebook-square, .fa-twitter-square{
+        font-size: 0.8em;
+        margin-right: 10px;
+    
+    }
+    #end a:link{
+        margin-right: 10px;
+        font-size: .8em;
+    }
+
+}
+
+/* For devices between 320px and  375px */
+
+@media (min-width:321px) and (max-width:375px){
+
+    .carousel-caption{
+        font-size: 1.5em;
+        letter-spacing: 5px;    
+    }
+    .display-4{
+
+        font-size: 1.7em;
+
+    }
+    .lead{
+        font-size: 0.9em;
+
+
+    }
+    #follow{
+        font-size: 1.1em;
+        margin-right: 10px;
+    }
+    #fall{
+        flex-direction: row;
+    }
+    .fa-instagram,.fa-facebook-square, .fa-twitter-square{
+        font-size: 1em;
+        margin-right: 10px;
+    
+    }
+    #end a:link{
+        margin-right: 10px;
+        font-size: 1em;
+    }
+
+}
+
+/* For devices between 376px-425px */
+
+@media (min-width:376px) and (max-width:425px){
+
+    .carousel-caption{
+        font-size: 2em;
+        letter-spacing: 6px;    
+    }
+    .display-4{
+
+        font-size: 1.9em;
+
+    }
+    .lead{
+        font-size: 1.1em;
+
+
+    }
+    #follow{
+        font-size: 1.3em;
+        margin-right: 10px;
+    }
+    #fall{
+        flex-direction: row;
+    }
+    .fa-instagram,.fa-facebook-square, .fa-twitter-square{
+        font-size: 1.1em;
+        margin-right: 10px;
+    
+    }
+    #end a:link{
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+}
+
+/* For devices between 426px and 768px */
+
+@media (min-width:426px) and (max-width:768px){
+
+    .carousel-caption{
+        font-size: 3.8em;
+        letter-spacing: 10px;    
+    }
+    .display-4{
+
+        font-size: 2.6em;
+
+    }
+    .lead{
+        font-size: 1.8em;
+
+
+    }
+    #follow{
+        font-size: 1.5em;
+        margin-right: 10px;
+    }
+    #fall{
+        flex-direction: row;
+    }
+    .fa-instagram,.fa-facebook-square, .fa-twitter-square{
+        font-size: 1.3em;
+        margin-right: 10px;
+    
+    }
+    #end a:link{
+        margin-right: 10px;
+        font-size: 1.4em;
+    }
+}
+
+
+
+
+
+
