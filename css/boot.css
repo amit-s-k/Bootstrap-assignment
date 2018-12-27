@@ -3,8 +3,6 @@
     padding: 0px;
     font-family: 'Muli', sans-serif;
 }
-
-
 .navbar-brand{
     text-transform: capitalize;
     color: whitesmoke;
@@ -104,10 +102,12 @@ a.nav-item.nav-link:hover{
     background:none!important;
     height:300px;
     width:100%;
+    margin: 0px;
 }
 iframe{
     width:100%;
     height:300px;
+    border: 0px;
 }
 
 @media (width:320px){
@@ -141,6 +141,12 @@ iframe{
     #end a:link{
         margin-right: 10px;
         font-size: .8em;
+    }
+    #head{
+        margin: 0px;
+    }
+    #carousel-example{
+        margin-top: 50px;
     }
 
 }
@@ -179,6 +185,12 @@ iframe{
         margin-right: 10px;
         font-size: 1em;
     }
+    #head{
+        margin: 0px;
+    }
+    #carousel-example{
+        margin-top: 50px;
+    }
 
 }
 
@@ -216,6 +228,12 @@ iframe{
         margin-right: 10px;
         font-size: 1.2em;
     }
+    #head{
+        margin: 0px;
+    }
+    #carousel-example{
+        margin-top: 50px;
+    }
 }
 
 /* For devices between 426px and 768px */
@@ -252,10 +270,10 @@ iframe{
         margin-right: 10px;
         font-size: 1.4em;
     }
+    #head{
+        margin: 0px;
+    }
+    #carousel-example{
+        margin-top: 50px;
+    }
 }
-
-
-
-
-
-
